@@ -68,7 +68,6 @@
     "remark-linkify-regex": "^1.0.0",
     "remark-parse": "^9.0.0",
     "remark-react": "^8.0.0",
-    "styled-components": "^5.2.1",
     "three": "^0.108.0",
     "unified": "^9.2.1",
     "universal-cookie": "^4.0.4",
