@@ -217,7 +217,7 @@ class SlatePage extends React.Component {
       page: { cid },
     } = this.props;
 
-    /* NOTE(daniel): If user was redirected to this page, the cid of the slate object will exist in the page props. 
+    /* NOTE(daniel): If user was redirected to this page, the cid of the slate object will exist in the page props.
     We'll use the cid to open the global carousel */
     if (Strings.isEmpty(cid)) {
       return;
@@ -523,6 +523,7 @@ class SlatePage extends React.Component {
                   current={this.props.current}
                   onUpdateViewer={this.props.onUpdateViewer}
                   viewer={this.props.viewer}
+                  mac={this.props.mac}
                   slateId={this.props.current.id}
                   layout={layouts && layouts.ver === "2.0" ? layouts.layout || [] : null}
                   onSaveLayout={this._handleSaveLayout}

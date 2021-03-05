@@ -677,6 +677,7 @@ export default class ApplicationPage extends React.Component {
       onUpdateViewer: this._handleUpdateViewer,
       sceneId: current.target.id,
       mobile: this.state.mobile,
+      mac: this.props.mac,
       resources: this.props.resources,
       activeUsers: this.state.activeUsers,
     });
@@ -733,6 +734,7 @@ export default class ApplicationPage extends React.Component {
             fileLoading={this.state.fileLoading}
             filecoin={current.target.filecoin}
             mobile={this.state.mobile}
+            mac={this.props.mac}
             viewer={this.state.viewer}
             onUpdateViewer={this._handleUpdateViewer}
           >
